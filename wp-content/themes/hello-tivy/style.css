@@ -19,6 +19,10 @@ body {
     color: #C5C6C7;
 }
 
+p {
+    color: #C5C6C7;
+}
+
 /* Scale canvas with resize attribute to full size */
 canvas[resize] {
     width: 100%;
@@ -47,7 +51,7 @@ canvas[resize] {
     display: block;
     position: relative;
     z-index: 3;
-    background-color: rgba(11, 12, 16, 0.9);
+    background-color: rgba(23, 28, 36, 1);
 }
 
 .btn-round {
@@ -350,6 +354,12 @@ canvas[resize] {
     color: #66FCF1;
 }
 
+/* 
+    MAKE A CUSTOM FIELD FOR ADDING
+    ANIMATION DELAYS TO PARTS OF CONTENT
+    OF PAGE
+
+*/
 .about-content-container .p1 {
     animation-delay: .7s;
 }
@@ -360,7 +370,7 @@ canvas[resize] {
 
 .about-content-container .p3 {
     animation-delay: 1.3s;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
 }
 
 .about-image-container {

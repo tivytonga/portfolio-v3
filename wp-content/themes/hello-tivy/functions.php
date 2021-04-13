@@ -2,6 +2,8 @@
 
 function main_portfolio_styles()
 {
+
+    wp_enqueue_script('jquery', get_stylesheet_directory_uri() . '/js/app.js', array('jquery'), '1.0', false);
     wp_enqueue_style('portfolio-main-style', get_theme_file_uri('/style.css'));
     wp_enqueue_style('bootstrap-style', '//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
     wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css?family=Montserrat:500,700|Roboto+Mono:500|Source+Code+Pro:600&display=swap');

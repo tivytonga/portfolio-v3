@@ -39,3 +39,25 @@
                     target="_blank">Resume</a>
             </nav>
         </div>
+        <!-- Main Row-->
+        <div id="mainRow" class="row">
+            <!-- Left Nav -->
+            <div id="leftNavWrapper" class="col-md-1 justify-content-center">
+                <nav id="leftNavbar" class="nav sticky-scroll">
+                    <div id="leftLinkContainer" class="">
+                        <div id="main-links">
+                            <a id="linkAbout" class="nav-link" href="<?php echo site_url('/about-me') ?>"><i
+                                    class="fa about-icon fa-big" aria-hidden="true"></i></a>
+                            <a id="linkPortfolio" class="nav-link" href="#portfolio"><i class="fa portfolio-icon fa-big"
+                                    aria-hidden="true"></i></a>
+                            <a id="linkContact" class="nav-link" href="<?php echo site_url('/contact-me') ?>"><i
+                                    class="fa contact-icon fa-big" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Contents of page -->
+
+            <!-- Main Content -->
+            <div id="mainContentWrapper" class="col-md-10">
